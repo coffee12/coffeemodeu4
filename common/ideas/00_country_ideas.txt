@@ -1247,8 +1247,8 @@ MLO_ideas = {
 	renaissance_prince = {
 		idea_cost = -0.1
 	}
-	patron_of_music = {
-		prestige = 1
+	italian_quality = {
+		morale = .05
 	}
 	lowered_power_of_barons = {
 		development_cost = -0.1
@@ -1571,9 +1571,8 @@ ITA_ideas = {
 	tradition_of_the_legion = {
 		infantry_power = 0.15
 	}
-	mare_nostrum = {
-		galley_cost = -0.15
-		galley_power = 0.20
+	italian_will = {
+		land_morale = 0.1
 	}
 	office_of_censor = {
 		global_manpower_modifier = 0.33
