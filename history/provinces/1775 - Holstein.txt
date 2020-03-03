@@ -1,8 +1,8 @@
 #1775 - Holstein
 
-owner = SHL
-controller = SHL
-add_core = SHL
+owner = DAN
+controller = DAN
+add_core = DAN
 culture = hannoverian
 religion = catholic
 hre = yes

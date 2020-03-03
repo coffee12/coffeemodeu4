@@ -23,8 +23,8 @@ discovered_by = ottoman
 discovered_by = eastern
 
 
-#1415.8.21 = { controller = POR add_core = POR }
-1415.9.1 = { controller = POR add_core = POR owner = POR capital = Ceuta }
+#1415.8.21 = { controller = MOR add_core = MOR }
+1415.9.1 = { controller = MOR add_core = MOR owner = MOR capital = Ceuta }
 1500.1.1 = { religion = catholic }
 1640.1.1 = {
 	owner = SPA

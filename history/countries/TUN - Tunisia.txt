@@ -11,9 +11,9 @@ religious_school = maliki_school
 	monarch = {
 		name = "'Uthman"
 		dynasty = "Hafsid"
-		adm = 1
-		dip = 3
-		mil = 3
+		adm = 2
+		dip = 2
+		mil = 4
 	}
 }
 
@@ -26,8 +26,8 @@ religious_school = maliki_school
 		death_date = 1489.1.1
 		claim = 95
 		adm = 2
-		dip = 0
-		mil = 1
+		dip = 2
+		mil = 3
 	}
 }
 

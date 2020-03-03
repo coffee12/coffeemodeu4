@@ -391,7 +391,7 @@ FRA_ideas = {
 		diplomatic_upkeep = 1
 	}
 	elan = {
-		land_morale = 0.20	
+		land_morale = 0.15	
 	}
 	estates_general = {
 		global_tax_modifier = 0.1
@@ -8896,7 +8896,7 @@ UES_ideas = {
 	free = yes
 	
 	ues_kanto_kanrei = {
-		diplomatic_upkeep = 1
+		global_tax_modifier = 0.1
 	}
 	
 	ues_yamanouchi_and_ogigayatsu_branches = {
@@ -8912,7 +8912,7 @@ UES_ideas = {
 	}
 
 	ues_nokizaru = {
-		spy_offence = 0.2
+		naval_morale = 0.15
 	}
 	
 	ues_agakita_shu = {

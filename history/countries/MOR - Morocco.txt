@@ -36,9 +36,9 @@ religious_school = maliki_school
 	monarch = {
 		name = "Abdalhaqq II"
 		dynasty = "Marinid"
-		adm = 0
-		dip = 2
-		mil = 1
+		adm = 3
+		dip = 1
+		mil = 3
 	}
 	capital = 343 # Fez
 }
@@ -48,8 +48,8 @@ religious_school = maliki_school
 		name = "Mohammed ibn Ali Amrani-Joutey"
 		dynasty = "Idrisid"
 		adm = 2
-		dip = 1
-		mil = 0
+		dip = 2
+		mil = 2
 	}
 }
 
