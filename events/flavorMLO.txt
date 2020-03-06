@@ -20,7 +20,11 @@ country_event = {
 	trigger = {
 		tag = MLO
 		government = monarchy
-		is_year = 1450
+		NOT = { has_reform = celestial_empire }
+		OR = {
+			has_regency = yes
+			NOT = { legitimacy = 75 }
+		}
 		is_lesser_in_union = no
 		NOT = {
 			is_year = 1550
@@ -42,7 +46,7 @@ country_event = {
 		ai_chance = { factor = 90 }
 		change_government = republic
 		add_government_reform = ambrosian_republic
-		add_republican_tradition = 25
+		add_republican_tradition = 5
 		every_neighbor_country  = {
 			limit = {
 				is_subject = no
@@ -77,7 +81,7 @@ country_event = {
 	}
 	option = {
 		name = flavor_mlo.1.b
-		add_stability = -1
+		add_stability = -3
 		add_legitimacy = 25
 		add_reform_desire = 0.01
 
