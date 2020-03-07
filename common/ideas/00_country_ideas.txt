@@ -2870,7 +2870,7 @@ MAL_ideas = {
 	free = yes		# will be added at load
 
 	restore_malian_suzerainity = {
-		vassal_income = 0.20
+		land_morale = 0.10
 	}
 	gold_of_bure = {
 		production_efficiency = 0.10
