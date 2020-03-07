@@ -1325,8 +1325,114 @@ gc_spain_4 = {
 				}
 			}
 		}
-	}	
-	
+	}
+	gc_cas_spa_italian_ambition = {
+		icon = mission_italian_condottiere
+		required_missions = { gc_cas_spa_reconquista_three }
+		completed_by = 1516.1.1
+
+		provinces_to_highlight = {
+			OR = {
+				area = sicily_area
+				area = calabria_area
+				area = apulia_area
+				province_id = 2983
+				province_id = 121
+				province_id = 120
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+
+		trigger = {
+			sicily_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			calabria_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			apulia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			2983 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			121 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			120 = {
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = "spa_rb_italian_ambition_mod"
+				duration = 5475
+			}
+			tuscany_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			lombardy_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			wallonia_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			flanders_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	gc_cas_spa_italian_ambition_2 = {
+		icon = mission_italian_conquest
+		required_missions = { gc_cas_spa_italian_ambition }
+
+		provinces_to_highlight = {
+			OR = {
+				area = tuscany_area
+				area = lombardy_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+
+		trigger = {
+			tuscany_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			lombardy_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "spa_milan"
+				duration = 7300
+			}
+		}
+	}
+}
+
 gc_spain_4_b = {
 	slot = 4
 	generic = no
