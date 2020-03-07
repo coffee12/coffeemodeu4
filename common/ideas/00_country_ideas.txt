@@ -1247,7 +1247,7 @@ MLO_ideas = {
 		idea_cost = -0.1
 	}
 	italian_quality = {
-		discipline = 0.025
+		discipline = 0.03
 	}
 	lowered_power_of_barons = {
 		development_cost = -0.1
