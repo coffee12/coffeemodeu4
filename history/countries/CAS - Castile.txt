@@ -94,7 +94,7 @@ add_army_professionalism = 0.1
 		name = "Enrique IV"
 		dynasty = "de Trastámara"
 		birth_date = 1433.1.5
-		adm = 3
+		adm = 2
 		dip = 2
 		mil = 3
 	}
@@ -110,7 +110,6 @@ add_army_professionalism = 0.1
 		mil = 1
 	}
 	clear_scripted_personalities = yes
-	add_ruler_personality = infertile_personality
 }
 
 1454.7.20 = {
@@ -152,9 +151,6 @@ add_army_professionalism = 0.1
 		mil = 5
 	}
 	clear_scripted_personalities = yes
-	add_ruler_personality = zealot_personality
-	add_ruler_personality = lawgiver_personality
-	add_ruler_personality = well_advised_personality
 }
 
 1479.11.6 = {
