@@ -15,6 +15,8 @@ gc_morocco_1 = {
 	gc_mor_imperial_cities = {
 		icon = mission_imperial_cities
 		required_missions = { }
+		
+		provinces_to_highlight = {
 			OR = {
 				province_id = 343
 				province_id = 344
