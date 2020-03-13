@@ -732,7 +732,7 @@ expansion_ideas = {
  		max_states = 5
 	}
 
-	additional_colonists = {
+	more_colonists = {
 		colonists = 1
 	}
 	additional_merchants = {
