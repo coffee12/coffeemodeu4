@@ -1,7 +1,7 @@
 #1110 - Agadir
 
-owner = MOR
-controller = MOR
+owner = SOS
+controller = SOS
 culture = berber
 religion = sunni
 capital = "Agadir"

@@ -1,7 +1,7 @@
 #2470 - Haha
 
-owner = MOR
-controller = MOR
+owner = MRK
+controller = MRK
 culture = berber
 religion = sunni
 capital = "Mogador"
@@ -11,8 +11,8 @@ base_tax = 2
 base_production = 2
 base_manpower = 1
 is_city = yes
+add_core = MRK
 add_core = MOR
-
 
 
 discovered_by = muslim
