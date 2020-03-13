@@ -1,7 +1,7 @@
 # - Saoura
 
-owner = MOR
-controller = MOR
+owner = TFL
+controller = TFL
 culture = moroccan
 religion = sunni
 capital = "Oulad Mhedi"

@@ -1,7 +1,7 @@
 # - Draa
 
-owner = MOR
-controller = MOR
+owner = TFL
+controller = TFL
 culture = moroccan
 religion = sunni
 capital = "Tagmadert"
@@ -12,6 +12,7 @@ base_production = 4
 base_manpower = 2
 is_city = yes
 add_core = MOR
+add_core = TFL
 add_local_autonomy = 25
 discovered_by = western
 discovered_by = muslim
