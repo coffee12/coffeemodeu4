@@ -8886,7 +8886,7 @@ UES_ideas = {
 	}
 	
 	bonus = {
-		infantry_power = 0.1
+		infantry_power = 0.175
 	}
 
 	trigger = {
@@ -8903,7 +8903,7 @@ UES_ideas = {
 	}
 
 	ues_kamakura_office = {
-		reinforce_cost_modifier = -0.25
+		global_trade_goods_size_modifier = 0.1
 	}
 	
 	ues_dragon_of_echigo = {
