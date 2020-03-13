@@ -13,14 +13,6 @@ aristocracy_ideas = {
 	bonus = {
 		leader_siege = 1
 	}
-
-	trigger = {
-		OR = {
-			has_government_attribute = enables_aristocratic_idea_group
-			government = theocracy
-			government = tribal
-		}
-	}
 	
 	noble_knights = {
 		cavalry_power = 0.10
@@ -65,10 +57,6 @@ plutocracy_ideas = {
 
 	bonus = {
 		global_institution_spread = 0.10
-	}
-
-	trigger = {
-		has_government_attribute = enables_plutocratic_idea_group
 	}
 
 	tradition_of_payment = {
@@ -936,77 +924,6 @@ influence_ideas = {
 		modifier = {
 			factor = 1.7
 			vassal = 2
-		}
-	}
-}
-
-naval_ideas = {
-	category = MIL
-
-	trigger = {
-		primitives = no
-	}
-
-	bonus = {
-		ship_durability = 0.1
-	}
-
-	boarding_parties = {
-		leader_naval_shock = 1
-	}
-	improved_rams = {
-		galley_power = 0.25
-	}
-	naval_cadets = {
-		leader_naval_fire = 1
-		sunk_ship_morale_hit_recieved = -0.33
-	}
-	naval_glory = {
-		navy_tradition = 1
-	}
-	press_gangs = {
-		sailors_recovery_speed = 0.25
-	}
-	oak_forests_for_ships = {
-		heavy_ship_power = 0.20
-	}
-	superior_seamanship = {
-		naval_morale = 0.1
-		global_naval_engagement_modifier = 0.1
-	}
-
-	ai_will_do = {
-		factor = 0.31
-		modifier = {
-			factor = 0
-			is_tribal = yes
-		}
-		modifier = {
-			factor = 0
-			primitives = yes
-		}
-		modifier = {
-			factor = 0
-			NOT = { num_of_ports = 1 }
-			NOT = { is_colonial_nation = yes }
-		}
-		modifier = {
-			factor = 0.31
-			NOT = { num_of_ports = 10 }
-		}
-		modifier = {
-			factor = 0.31
-			num_of_cities = 50
-		}
-
-		modifier = {
-			factor = 10
-			OR = {
-				has_reform = pirate_republic_reform
-				has_reform = pirate_kingdom
-				has_reform = war_against_the_world_government
-				has_reform = black_market_consortium_government
-			}
 		}
 	}
 }
