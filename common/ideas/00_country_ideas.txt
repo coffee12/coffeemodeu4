@@ -20,11 +20,11 @@ ENG_ideas = {
 	free = yes		#will be added at load.
 	
 	royal_navy = {
-			navy_tradition = 0.25
-			heavy_ship_power = 0.10
+		navy_tradition = 0.25
+		heavy_ship_power = 0.10
 	}
 	eltham_ordinance = {
-			production_efficiency = 0.1
+		production_efficiency = 0.1
 	}
 	secretaries_of_state = {
 		diplomatic_upkeep = 1
@@ -12635,7 +12635,7 @@ MOR_ideas = {
 		naval_forcelimit_modifier = 0.25
 	}
 	bonus = {
-		land_morale = 0.10
+	discipline = 0.05
 	}
 	trigger = {
 		tag = MOR
@@ -12645,22 +12645,21 @@ MOR_ideas = {
 		same_culture_advisor_cost = -0.2
 	}
 	mor_marabouts = {
-		idea_cost = -0.1
-		monthly_piety = -0.001
+		heavy_ship_power = 0.10
 	}
 	trans_saharan_trade = {
 		trade_efficiency = 0.1
 		caravan_power = 0.2
 	}
-	mor_fleet = {
-		galley_power = 0.2
+	mor_army = {
+		land_morale = 0.15
 	}
 	mor_pirate_republics = {
-		privateer_efficiency = 0.15
+		global_sailors_modifier = 0.25
 	}
 	mor_slave_soldiers = {
-		land_maintenance_modifier = -0.05
-		cavalry_power = 0.1
+		idea_cost = -0.1
+		monthly_piety = -0.001
 	}
 	mor_curb_power_of_the_tribes = {
 		global_autonomy = -0.05
