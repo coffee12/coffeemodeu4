@@ -745,8 +745,8 @@ expansion_ideas = {
 		rival_border_fort_maintenance = -0.5
 		center_of_trade_upgrade_cost = -0.2
 	}
-	additional_diplomats = {
-		diplomatic_upkeep = 1
+	even_more_colonists = {
+		colonists  = 1
 	}
 	cultural_ties = {
 		num_accepted_cultures = 2
