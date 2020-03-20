@@ -1571,7 +1571,7 @@ ITA_ideas = {
 		infantry_power = 0.15
 	}
 	italian_will = {
-		land_morale = 0.1
+		land_morale = 0.15
 	}
 	office_of_censor = {
 		global_manpower_modifier = 0.33
@@ -1583,7 +1583,7 @@ ITA_ideas = {
 		prestige = 1
 	}
 	path_to_citizenship = {
-		core_creation = -0.25
+		discipline = 0.05
 	}
 }
 
@@ -1807,7 +1807,7 @@ ETH_ideas = {
 	}
 	
 	bonus = {
-		legitimacy = 1
+		global_manpower_modifier = 0.25
 	}
 	
 	trigger = {
@@ -1819,7 +1819,7 @@ ETH_ideas = {
 		infantry_power = 0.1
 	}
 	nagusa_negast = {
-		discipline = 0.05
+		land_morale
 	}
 	hostile_borders = {
 		defensiveness = 0.20
@@ -2532,7 +2532,7 @@ TUS_ideas = {
 
 SWI_ideas = {
 	start = {
-		global_manpower_modifier = 0.1
+		global_manpower_modifier = 0.2
 		infantry_power = 0.2
 	}
 	
@@ -2552,7 +2552,7 @@ SWI_ideas = {
 		merc_maintenance_modifier = -0.15
 	}
 	alpine_defensiveness = {
-		fort_maintenance_modifier = -0.2
+		technology_cost = -0.10
 	}
 	oasis_of_peace_and_prosperity = {
 		development_cost = -0.1
