@@ -2491,14 +2491,14 @@ TUS_ideas = {
 }
 
 
-#USA_ideas = {
+#USA_ideas = { #Moved to coffeemod_ideas.txt
 #	start = {
 #		merchants = 1
 #		religious_unity = 0.2
 #	}
 #	
 #	bonus = {
-#		republican_tradition = 0.3
+#		republican_tradition = 0.5
 #	}
 #	
 #	trigger = {
@@ -2526,7 +2526,7 @@ TUS_ideas = {
 #	}
 #	indian_removal = {
 #		cb_on_primitives = yes
- #	}
+# 	}
 #}
 
 
@@ -5835,47 +5835,47 @@ ZAZ_ideas = {
 	}
 }
 
-CAN_ideas = {
-	start = {
-		trade_efficiency = 0.1
-		land_attrition = -0.15
-	}
-	
-	bonus = {
-		republican_tradition = 0.3
-		legitimacy = 1
-	}
-	
-	trigger = {
-		tag = CAN
-	}
-	free = yes
-	
-		
-	singing_lumberjacks = {
-		production_efficiency = 0.10
-	}	
-	the_hudson_bay_company = {
-		merchants = 1
-	}
-    settling_the_interior = {
-		colonists = 1
-	}
-	the_maritimes = {
-		navy_tradition = 1
-	}
-	the_quebec_act = {
-		tolerance_heretic = 2
-	}
-	legacy_of_the_empire = {
-		trade_steering = 0.15
-	}
-	the_forests_of_canada = {
-		global_ship_cost = -0.1
-	}
-}
+#CAN_ideas = { #Moved to coffeemod_ideas.txt
+#	start = {
+#		trade_efficiency = 0.1
+#		land_attrition = -0.15
+#	}
+#	
+#	bonus = {
+#		republican_tradition = 0.5
+#		legitimacy = 1
+#	}
+#	
+#	trigger = {
+#		tag = CAN
+#	}
+#	free = yes
+#	
+#		
+#	singing_lumberjacks = {
+#		production_efficiency = 0.10
+#	}	
+#	the_hudson_bay_company = {
+#		merchants = 1
+#	}
+#   settling_the_interior = {
+#		colonists = 1
+#	}
+#	the_maritimes = {
+#		navy_tradition = 1
+#	}
+#	the_quebec_act = {
+#		tolerance_heretic = 2
+#	}
+#	legacy_of_the_empire = {
+#		trade_steering = 0.15
+#	}
+#	the_forests_of_canada = {
+#		global_ship_cost = -0.1
+#	}
+#}
 
-#QUE_ideas = {
+#QUE_ideas = { #Moved to coffeemod_ideas.txt
 #	start = {
 #		infantry_power = 0.10
 #		tolerance_own = 2
@@ -5914,7 +5914,7 @@ CAN_ideas = {
 #	}
 #}
 
-#MEX_ideas = {
+#MEX_ideas = { #Moved to coffeemod_ideas.txt
 #	start = {
 #		global_colonial_growth = 15
 #		inflation_reduction = 0.1
@@ -12705,41 +12705,41 @@ TUN_ideas = {
 	}
 }
 
-TEX_ideas = {
-	start = {	
-		fire_damage_received = -0.1
-		no_religion_penalty = yes
-	}
-	bonus = {
-		land_morale = 0.15
-	}
-	trigger = {
-		tag = TEX
-	}
-	free = yes
-	lone_star_state = {
-		prestige = 1
-	}
-	tex_revolution = {
-		fire_damage = 0.1
-	}
-	cotton_plantations = {
-		global_trade_goods_size_modifier = 0.1
-	}
-	vaqueros = {
-		land_attrition = -0.1
-		movement_speed = 0.15
-	}
-	tex_native_frontiers = {
-		army_tradition_decay = -0.01
-	}
-	tejanos = {
-		stability_cost_modifier = -0.15
-	}
-	adelsverin = {
-		development_cost = -0.1
-	}
-}
+#TEX_ideas = { #Moved to coffeemod_ideas.txt
+#	start = {	
+#		fire_damage_received = -0.1
+#		no_religion_penalty = yes
+#	}
+#	bonus = {
+#		land_morale = 0.15
+#	}
+#	trigger = {
+#		tag = TEX
+#	}
+#	free = yes
+#	lone_star_state = {
+#		prestige = 1
+#	}
+#	tex_revolution = {
+#		fire_damage = 0.1
+#	}
+#	cotton_plantations = {
+#		global_trade_goods_size_modifier = 0.1
+#	}
+#	vaqueros = {
+#		land_attrition = -0.1
+#		movement_speed = 0.15
+#	}
+#	tex_native_frontiers = {
+#		army_tradition_decay = -0.01
+#	}
+#	tejanos = {
+#		stability_cost_modifier = -0.15
+#	}
+#	adelsverin = {
+#		development_cost = -0.1
+#	}
+#}
 
 ASU_ideas = {
 	start = {

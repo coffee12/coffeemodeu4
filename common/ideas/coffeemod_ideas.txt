@@ -105,7 +105,7 @@ AUS_ideas = { #Australia
 	free = yes
 	
 	aus_1 = { #Legion of Frontiersmen
-		infantry_power = 0.15
+		infantry_power = 0.2
 	}
 	aus_2 = { #Australian Courts
 		yearly_corruption = -0.1
@@ -130,7 +130,7 @@ AUS_ideas = { #Australia
 NZL_ideas = { #New Zealand
 	start = {
 		republican_tradition = 0.1
-		naval_forcelimit_modifier = 0.25
+		naval_forcelimit_modifier = 0.2
 	}
 	
 	bonus = {
@@ -143,7 +143,7 @@ NZL_ideas = { #New Zealand
 	free = yes
 	
 	nzl_1 = { #Polynesian Spirit
-		navy_tradition = 1
+		navy_tradition = 0.5
 	}
 	nzl_2 = { #Mana
 		prestige = 1
@@ -161,7 +161,7 @@ NZL_ideas = { #New Zealand
 		global_tax_modifier = 0.15
 	}
 	nzl_7 = { #Impressment
-		global_sailors_modifier = 0.5
+		global_sailors_modifier = 0.25
 	}
 }
 
@@ -248,7 +248,7 @@ PRG_ideas = { #Paraguay
 
 CAN_ideas = { #Canada
 	start = {
-		infantry_cost = -0.1
+		land_morale = 0.1
 		no_religion_penalty = yes
 	}
 	
@@ -369,7 +369,7 @@ CAL_ideas = { #California
 		free_adm_policy = 1
 	}
 	cal_7 = { #The Bay
-		ship_recruit_speed = -0.25
+		global_ship_recruit_speed = -0.25
 		ship_durability = 0.05
 	}
 }
@@ -399,7 +399,7 @@ CSC_ideas = { #Columbia
 		prestige = 1
 	}
 	csc_4 = { #Trial By Fire
-		fire_damage_received = -0.10
+		fire_damage_received = -0.15
 	}
 	csc_5 = { #Lead By Example
 		leader_land_fire = 1
@@ -421,7 +421,7 @@ CUB_ideas = { #Cuba
 	}
 	
 	bonus = {
-		own_coast_naval_combat_bonus = 1
+		ship_durability = 0.05
 	}
 	
 	trigger = {
@@ -627,7 +627,7 @@ NEG_ideas = { #New England
 	}
 	
 	bonus = {
-		build_time = -0.2
+		build_time = -0.25
 	}
 	
 	trigger = {
@@ -703,7 +703,7 @@ CHL_ideas = { #Chile
 
 LAP_ideas = { #La Plata
 	start = {
-		global_tax_modifier = 0.1
+		global_tax_modifier = 0.2
 		global_unrest = -1
 	}
 	
@@ -726,7 +726,7 @@ LAP_ideas = { #La Plata
 		republican_tradition = 0.1
 	}
 	lap_4 = { #Made of Steel
-		infantry_cost = -0.1
+		infantry_cost = -0.2
 	}
 	lap_5 = { #Made of Silver
 		global_trade_goods_size_modifier = 0.1
@@ -747,7 +747,7 @@ TEX_ideas = { #Texas
 		free_leader_pool = 1
 	}
 	bonus = {
-		land_morale = 0.1
+		cav_to_inf_ratio = 0.3
 	}
 	trigger = {
 		tag = TEX
@@ -757,15 +757,14 @@ TEX_ideas = { #Texas
 		prestige = 1
 	}
 	tex_revolution = { #Texas Rangers
-		shock_damage = 0.15
+		shock_damage = 0.2
 	}
 	cotton_plantations = {
 		production_efficiency = 0.05
 		development_cost = -0.05
 	}
 	vaqueros = {
-		cavalry_power = 0.15
-		cav_to_inf_ratio = 0.40
+		cavalry_power = 0.2
 	}
 	tex_native_frontiers = {
 		land_attrition = -0.1
@@ -799,7 +798,7 @@ LOU_ideas = { #Louisiana
 	}
 	lou_2 = { #Port of New Orleans
 		light_ship_cost = -0.25
-		global_sailors_modifier = 0.25
+		global_sailors_modifier = 0.5
 	}
 	lou_3 = { #Breadbasket of America
 		global_trade_goods_size_modifier = 0.1
@@ -878,8 +877,7 @@ CAM_ideas = { #United Central America
 	free = yes
 	
 	cam_1 = { #Grand Commissariat
-		land_morale = 0.1
-		recover_army_morale_speed = 0.05
+		recover_army_morale_speed = 0.1
 	}
 	cam_2 = { #Arm the Masses
 		infantry_power = -0.2
@@ -899,7 +897,7 @@ CAM_ideas = { #United Central America
 		garrison_size = 0.1
 	}
 	cam_7 = { #Militia
-		land_forcelimit_modifier = 0.25
+		land_forcelimit_modifier = 0.33
 	}
 }
 
@@ -907,7 +905,7 @@ CAM_ideas = { #United Central America
 
 BLV_ideas = { #Bolivia
 	start = {
-		land_forcelimit_modifier = 0.1
+		land_forcelimit_modifier = 0.2
 		global_prov_trade_power_modifier = 0.2
 	}
 	
@@ -961,13 +959,13 @@ PEU_ideas = { #Peru
 	
 	peu_1 = { #Mountain Foundries
 		artillery_cost = -0.15
-		artillery_power = 0.075
+		artillery_power = 0.1
 	}
 	peu_2 = { #Andes Rangers
 		movement_speed = 0.1
 	}
 	peu_3 = { #Blast Charges
-		siege_ability = 0.1
+		siege_ability = 0.15
 	}
 	peu_4 = { #Loyalists
 		republican_tradition = 0.1
