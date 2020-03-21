@@ -24,9 +24,6 @@ country_decisions = {
 				owned_by = ROOT
 				is_core = ROOT
 			}
-			colonial_parent = {
-				has_country_flag = h_aus_enabled
-			}
 			NOT = { exists = AUS }
 		}
 		effect  = {
@@ -66,9 +63,6 @@ country_decisions = {
 				type = all
 				owned_by = ROOT
 				is_core = ROOT
-			}
-			colonial_parent = {
-				has_country_flag = h_brz_enabled
 			}
 			NOT = { exists = BRZ }
 		}
@@ -111,8 +105,6 @@ country_decisions = {
 				is_core = ROOT
 			}
 			colonial_parent = {
-				has_country_flag = h_cal_enabled
-			}
 			NOT = { exists = CAL }
 		}
 		effect  = {
@@ -152,9 +144,6 @@ country_decisions = {
 				type = all
 				owned_by = ROOT
 				is_core = ROOT
-			}
-			colonial_parent = {
-				has_country_flag = h_can_enabled
 			}
 			NOT = { exists = CAN }
 		}
@@ -196,9 +185,6 @@ country_decisions = {
 				owned_by = ROOT
 				is_core = ROOT
 			}
-			colonial_parent = {
-				has_country_flag = h_chl_enabled
-			}
 			NOT = { exists = CHL }
 		}
 		effect  = {
@@ -238,9 +224,6 @@ country_decisions = {
 				type = all
 				owned_by = ROOT
 				is_core = ROOT
-			}
-			colonial_parent = {
-				has_country_flag = h_col_enabled
 			}
 			NOT = { exists = COL }
 		}
@@ -282,9 +265,6 @@ country_decisions = {
 				owned_by = ROOT
 				is_core = ROOT
 			}
-			colonial_parent = {
-				has_country_flag = h_hat_enabled
-			}
 			NOT = { exists = HAT }
 		}
 		effect  = {
@@ -324,9 +304,6 @@ country_decisions = {
 				type = all
 				owned_by = ROOT
 				is_core = ROOT
-			}
-			colonial_parent = {
-				has_country_flag = h_lap_enabled
 			}
 			NOT = { exists = LAP }
 		}
@@ -368,9 +345,6 @@ country_decisions = {
 				owned_by = ROOT
 				is_core = ROOT
 			}
-			colonial_parent = {
-				has_country_flag = h_lou_enabled
-			}
 			NOT = { exists = LOU }
 		}
 		effect  = {
@@ -410,9 +384,6 @@ country_decisions = {
 				type = all
 				owned_by = ROOT
 				is_core = ROOT
-			}
-			colonial_parent = {
-				has_country_flag = h_mex_enabled
 			}
 			NOT = { exists = MEX }
 		}
@@ -454,9 +425,6 @@ country_decisions = {
 				owned_by = ROOT
 				is_core = ROOT
 			}
-			colonial_parent = {
-				has_country_flag = h_prg_enabled
-			}
 			NOT = { exists = PRG }
 		}
 		effect  = {
@@ -496,9 +464,6 @@ country_decisions = {
 				type = all
 				owned_by = ROOT
 				is_core = ROOT
-			}
-			colonial_parent = {
-				has_country_flag = h_peu_enabled
 			}
 			NOT = { exists = PEU }
 		}
@@ -540,9 +505,6 @@ country_decisions = {
 				owned_by = ROOT
 				is_core = ROOT
 			}
-			colonial_parent = {
-				has_country_flag = h_que_enabled
-			}
 			NOT = { exists = QUE }
 		}
 		effect  = {
@@ -582,9 +544,6 @@ country_decisions = {
 				type = all
 				owned_by = ROOT
 				is_core = ROOT
-			}
-			colonial_parent = {
-				has_country_flag = h_tex_enabled
 			}
 			NOT = { exists = TEX }
 		}
@@ -626,9 +585,6 @@ country_decisions = {
 				owned_by = ROOT
 				is_core = ROOT
 			}
-			colonial_parent = {
-				has_country_flag = h_cam_enabled
-			}
 			NOT = { exists = CAM }
 		}
 		effect  = {
@@ -668,9 +624,6 @@ country_decisions = {
 				type = all
 				owned_by = ROOT
 				is_core = ROOT
-			}
-			colonial_parent = {
-				has_country_flag = h_usa_enabled
 			}
 			NOT = { exists = USA }
 		}
@@ -712,9 +665,6 @@ country_decisions = {
 				owned_by = ROOT
 				is_core = ROOT
 			}
-			colonial_parent = {
-				has_country_flag = h_vnz_enabled
-			}
 			NOT = { exists = VNZ }
 		}
 		effect  = {
@@ -754,9 +704,6 @@ country_decisions = {
 				type = all
 				owned_by = ROOT
 				is_core = ROOT
-			}
-			colonial_parent = {
-				has_country_flag = h_cub_enabled
 			}
 			NOT = { exists = CUB }
 		}
@@ -841,9 +788,6 @@ country_decisions = {
 				owned_by = ROOT
 				is_core = ROOT
 			}
-			colonial_parent = {
-				has_country_flag = h_nzl_enabled
-			}
 			NOT = { exists = NZL }
 		}
 		effect  = {
@@ -883,9 +827,6 @@ country_decisions = {
 				type = all
 				owned_by = ROOT
 				is_core = ROOT
-			}
-			colonial_parent = {
-				has_country_flag = h_blv_enabled
 			}
 			NOT = { exists = BLV }
 		}
@@ -927,9 +868,6 @@ country_decisions = {
 				owned_by = ROOT
 				is_core = ROOT
 			}
-			colonial_parent = {
-				has_country_flag = h_csc_enabled
-			}
 			NOT = { exists = CSC }
 		}
 		effect  = {
@@ -952,533 +890,3 @@ country_decisions = {
 			factor = 0
 		}
 	}
-	
-	h_enable_australia = {
-		major = yes
-		potential = {
-			any_subject_country = {
-				has_country_flag = h_australia_dominion_request
-			}
-			NOT = { has_country_flag = h_nzl_enabled }
-		}
-		allow = {
-			any_subject_country = {
-				has_country_flag = h_australia_dominion_request
-			}
-		}
-		effect  = {
-			set_country_flag = h_aus_enabled
-			any_subject_country = {
-				clr_country_flag = h_australia_dominion_request
-			}
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	
-	h_enable_newzealand = {
-		major = yes
-		potential = {
-			any_subject_country = {
-				has_country_flag = h_australia_dominion_request
-			}
-			NOT = { has_country_flag = h_nzl_enabled }
-		}
-		allow = {
-			any_subject_country = {
-				has_country_flag = h_australia_dominion_request
-			}
-		}
-		effect  = {
-			set_country_flag = h_nzl_enabled
-			any_subject_country = {
-				clr_country_flag = h_australia_dominion_request
-			}
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	
-	h_enable_brazil = {
-		major = yes
-		potential = {
-			any_subject_country = {
-				has_country_flag = h_brazil_dominion_request
-			}
-			NOT = { has_country_flag = h_brz_enabled }
-		}
-		allow = {
-			any_subject_country = {
-				has_country_flag = h_brazil_dominion_request
-			}
-		}
-		effect  = {
-			set_country_flag = h_brz_enabled
-			any_subject_country = {
-				clr_country_flag = h_brazil_dominion_request
-			}
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	
-	h_enable_paraguay = {
-		major = yes
-		potential = {
-			any_subject_country = {
-				has_country_flag = h_brazil_dominion_request
-			}
-			NOT = { has_country_flag = h_prg_enabled }
-		}
-		allow = {
-			any_subject_country = {
-				has_country_flag = h_brazil_dominion_request
-			}
-		}
-		effect  = {
-			set_country_flag = h_prg_enabled
-			any_subject_country = {
-				clr_country_flag = h_brazil_dominion_request
-			}
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	
-	h_enable_california = {
-		major = yes
-		potential = {
-			any_subject_country = {
-				has_country_flag = h_california_dominion_request
-			}
-			NOT = { has_country_flag = h_cal_enabled }
-		}
-		allow = {
-			any_subject_country = {
-				has_country_flag = h_california_dominion_request
-			}
-		}
-		effect  = {
-			set_country_flag = h_cal_enabled
-			any_subject_country = {
-				clr_country_flag = h_california_dominion_request
-			}
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	
-	h_enable_columbia = {
-		major = yes
-		potential = {
-			any_subject_country = {
-				has_country_flag = h_california_dominion_request
-			}
-			NOT = { has_country_flag = h_csc_enabled }
-		}
-		allow = {
-			any_subject_country = {
-				has_country_flag = h_california_dominion_request
-			}
-		}
-		effect  = {
-			set_country_flag = h_csc_enabled
-			any_subject_country = {
-				clr_country_flag = h_california_dominion_request
-			}
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	
-	h_enable_canada = {
-		major = yes
-		potential = {
-			any_subject_country = {
-				has_country_flag = h_canada_dominion_request
-			}
-			NOT = { has_country_flag = h_can_enabled }
-		}
-		allow = {
-			any_subject_country = {
-				has_country_flag = h_canada_dominion_request
-			}
-		}
-		effect  = {
-			set_country_flag = h_can_enabled
-			any_subject_country = {
-				clr_country_flag = h_canada_dominion_request
-			}
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	
-	h_enable_quebec = {
-		major = yes
-		potential = {
-			any_subject_country = {
-				has_country_flag = h_canada_dominion_request
-			}
-			NOT = { has_country_flag = h_que_enabled }
-		}
-		allow = {
-			any_subject_country = {
-				has_country_flag = h_canada_dominion_request
-			}
-		}
-		effect  = {
-			set_country_flag = h_que_enabled
-			any_subject_country = {
-				clr_country_flag = h_canada_dominion_request
-			}
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	
-	h_enable_cuba = {
-		major = yes
-		potential = {
-			any_subject_country = {
-				has_country_flag = h_caribbean_dominion_request
-			}
-			NOT = { has_country_flag = h_cub_enabled }
-		}
-		allow = {
-			any_subject_country = {
-				has_country_flag = h_caribbean_dominion_request
-			}
-		}
-		effect  = {
-			set_country_flag = h_cub_enabled
-			any_subject_country = {
-				clr_country_flag = h_caribbean_dominion_request
-			}
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	
-	h_enable_haiti = {
-		major = yes
-		potential = {
-			any_subject_country = {
-				has_country_flag = h_caribbean_dominion_request
-			}
-			NOT = { has_country_flag = h_hat_enabled }
-		}
-		allow = {
-			any_subject_country = {
-				has_country_flag = h_caribbean_dominion_request
-			}
-		}
-		effect  = {
-			set_country_flag = h_hat_enabled
-			any_subject_country = {
-				clr_country_flag = h_caribbean_dominion_request
-			}
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	
-	h_enable_colombia = {
-		major = yes
-		potential = {
-			any_subject_country = {
-				has_country_flag = h_colombia_dominion_request
-			}
-			NOT = { has_country_flag = h_col_enabled }
-		}
-		allow = {
-			any_subject_country = {
-				has_country_flag = h_colombia_dominion_request
-			}
-		}
-		effect  = {
-			set_country_flag = h_col_enabled
-			any_subject_country = {
-				clr_country_flag = h_colombia_dominion_request
-			}
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	
-	h_enable_venezuela = {
-		major = yes
-		potential = {
-			any_subject_country = {
-				has_country_flag = h_colombia_dominion_request
-			}
-			NOT = { has_country_flag = h_vnz_enabled }
-		}
-		allow = {
-			any_subject_country = {
-				has_country_flag = h_colombia_dominion_request
-			}
-		}
-		effect  = {
-			set_country_flag = h_vnz_enabled
-			any_subject_country = {
-				clr_country_flag = h_colombia_dominion_request
-			}
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	
-	h_enable_newengland = {
-		major = yes
-		potential = {
-			any_subject_country = {
-				has_country_flag = h_easternamerica_dominion_request
-			}
-			NOT = { has_country_flag = h_neg_enabled }
-		}
-		allow = {
-			any_subject_country = {
-				has_country_flag = h_easternamerica_dominion_request
-			}
-		}
-		effect  = {
-			set_country_flag = h_neg_enabled
-			any_subject_country = {
-				clr_country_flag = h_easternamerica_dominion_request
-			}
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-
-	h_enable_usa = {
-		major = yes
-		potential = {
-			any_subject_country = {
-				has_country_flag = h_easternamerica_dominion_request
-			}
-			NOT = { has_country_flag = h_usa_enabled }
-		}
-		allow = {
-			any_subject_country = {
-				has_country_flag = h_easternamerica_dominion_request
-			}
-		}
-		effect  = {
-			set_country_flag = h_usa_enabled
-			any_subject_country = {
-				clr_country_flag = h_easternamerica_dominion_request
-			}
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	
-	h_enable_chile = {
-		major = yes
-		potential = {
-			any_subject_country = {
-				has_country_flag = h_laplata_dominion_request
-			}
-			NOT = { has_country_flag = h_chl_enabled }
-		}
-		allow = {
-			any_subject_country = {
-				has_country_flag = h_laplata_dominion_request
-			}
-		}
-		effect  = {
-			set_country_flag = h_chl_enabled
-			any_subject_country = {
-				clr_country_flag = h_laplata_dominion_request
-			}
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	
-	h_enable_laplata = {
-		major = yes
-		potential = {
-			any_subject_country = {
-				has_country_flag = h_laplata_dominion_request
-			}
-			NOT = { has_country_flag = h_lap_enabled }
-		}
-		allow = {
-			any_subject_country = {
-				has_country_flag = h_laplata_dominion_request
-			}
-		}
-		effect  = {
-			set_country_flag = h_lap_enabled
-			any_subject_country = {
-				clr_country_flag = h_laplata_dominion_request
-			}
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	
-	h_enable_louisiana = {
-		major = yes
-		potential = {
-			any_subject_country = {
-				has_country_flag = h_louisiana_dominion_request
-			}
-			NOT = { has_country_flag = h_lou_enabled }
-		}
-		allow = {
-			any_subject_country = {
-				has_country_flag = h_louisiana_dominion_request
-			}
-		}
-		effect  = {
-			set_country_flag = h_lou_enabled
-			any_subject_country = {
-				clr_country_flag = h_louisiana_dominion_request
-			}
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	
-	h_enable_texas = {
-		major = yes
-		potential = {
-			any_subject_country = {
-				has_country_flag = h_louisiana_dominion_request
-			}
-			NOT = { has_country_flag = h_tex_enabled }
-		}
-		allow = {
-			any_subject_country = {
-				has_country_flag = h_louisiana_dominion_request
-			}
-		}
-		effect  = {
-			set_country_flag = h_tex_enabled
-			any_subject_country = {
-				clr_country_flag = h_louisiana_dominion_request
-			}
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	
-	h_enable_mexico = {
-		major = yes
-		potential = {
-			any_subject_country = {
-				has_country_flag = h_mexico_dominion_request
-			}
-			NOT = { has_country_flag = h_mex_enabled }
-		}
-		allow = {
-			any_subject_country = {
-				has_country_flag = h_mexico_dominion_request
-			}
-		}
-		effect  = {
-			set_country_flag = h_mex_enabled
-			any_subject_country = {
-				clr_country_flag = h_mexico_dominion_request
-			}
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	
-	h_enable_upca = {
-		major = yes
-		potential = {
-			any_subject_country = {
-				has_country_flag = h_mexico_dominion_request
-			}
-			NOT = { has_country_flag = h_cam_enabled }
-		}
-		allow = {
-			any_subject_country = {
-				has_country_flag = h_mexico_dominion_request
-			}
-		}
-		effect  = {
-			set_country_flag = h_cam_enabled
-			any_subject_country = {
-				clr_country_flag = h_mexico_dominion_request
-			}
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	
-	h_enable_bolivia = {
-		major = yes
-		potential = {
-			any_subject_country = {
-				has_country_flag = h_peru_dominion_request
-			}
-			NOT = { has_country_flag = h_blv_enabled }
-		}
-		allow = {
-			any_subject_country = {
-				has_country_flag = h_peru_dominion_request
-			}
-		}
-		effect  = {
-			set_country_flag = h_blv_enabled
-			any_subject_country = {
-				clr_country_flag = h_peru_dominion_request
-			}
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	
-	h_enable_peru = {
-		major = yes
-		potential = {
-			any_subject_country = {
-				has_country_flag = h_peru_dominion_request
-			}
-			NOT = { has_country_flag = h_peu_enabled }
-		}
-		allow = {
-			any_subject_country = {
-				has_country_flag = h_peru_dominion_request
-			}
-		}
-		effect  = {
-			set_country_flag = h_peu_enabled
-			any_subject_country = {
-				clr_country_flag = h_peru_dominion_request
-			}
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-
-}

@@ -2545,8 +2545,8 @@ SWI_ideas = {
 	free = yes  #will be triggered at load
 	
 	the_swiss_confederation = {
-		stability_cost_modifier = -0.1
-	}
+		development_cost = -0.1
+	}	
 	swiss_mercenaries = {
 		merc_maintenance_modifier = -0.15
 	}
@@ -2554,7 +2554,7 @@ SWI_ideas = {
 		fort_maintenance_modifier = -0.2
 	}
 	oasis_of_peace_and_prosperity = {
-		development_cost = -0.1
+			stability_cost_modifier = -0.1
 	}
 	swiss_tolerance = {
 		idea_cost = -0.05
