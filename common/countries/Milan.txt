@@ -1,0 +1,73 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 0  81  151 }
+
+historical_score = 4700
+
+historical_idea_groups = {
+	quality_ideas
+	economic_ideas
+	offensive_ideas
+	innovative_ideas
+	economic_ideas
+	trade_ideas
+	quantity_ideas
+	defensive_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	spanish_tercio
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"larry #0" = 120
+}
+
+leader_names = {
+	"Machado"
+	Cabral Coelho Corte-Real Coutinho
+	"da Câmara" "da Costa" "da Cunha" "da Fonseca" "de Albuquerque"
+	"de Almeida" "de Andrade" "de Aveiro" "de Ataíde" "de Azevedo"
+	"de Bragança" "de Brito" "de Carvalho" "de Castelo-Branco" "de Castro"
+	"de Correia" "de Faria" "da Gama" "de Guimarães" "de Lemos" "de Magalhães"
+	"de Marialva" "de Melo" "de Mendonça" "de Meneses" "de Noronha"
+	"de Oliveira" "de Paiva" "de Penamacor" "de Pimentel" "de Queiróz"
+	"de Sá" "de Sampaio" "de Sequeira" "de Sousa" "de Souto" "de Tavares"
+	"de Távora" "de Vilhena" Dias
+	Eanes
+	"Ferreira Martins"
+	Gomes Gonçalves
+	"Lemos de Brito"
+	"Martins de Mascarenhas" "de Vasconcelos" "Mendonça Furtado"
+	"Nunes Barreto"
+	Pereira
+	Rebelo Rodrigues
+	Sarmento
+	Teixeira "Teles de Meneses"
+}
+
+ship_names = {
+	Activo "Afonso de Albuquerque"
+}
+
+army_names = {
+	"Milan Guard"
+}
+
+fleet_names = {
+	"Armada Milan"
+}
