@@ -326,7 +326,7 @@ christian = {
 								religion = protestant
 								is_reformation_center = yes
 							}
-							amount = 3
+							amount = 10
 						}
 					}
 				}
@@ -352,11 +352,11 @@ christian = {
 								religion = protestant
 								is_reformation_center = yes
 							}
-							amount = 3
+							amount = 4
 						}
 					}
 				}
-				add_years_of_income = 1.0
+				add_years_of_income = 5.0
 				hidden_effect = {
 					random_owned_province = {
 						limit = {
@@ -443,7 +443,7 @@ christian = {
 								religion = reformed
 								is_reformation_center = yes
 							}
-							amount = 3
+							amount = 10
 						}
 					}
 				}
@@ -469,11 +469,11 @@ christian = {
 								religion = reformed
 								is_reformation_center = yes
 							}
-							amount = 3
+							amount = 4
 						}
 					}
 				}
-				add_years_of_income = 1.0
+				add_years_of_income = 5.0
 				hidden_effect = {
 					random_owned_province = {
 						limit = {
@@ -655,7 +655,7 @@ christian = {
 		color = { 178 38 76 }
 		icon = 14
 		country = {
-			defensiveness = 0.1
+			local_missionary_strength = 0.03
 			tolerance_own = 1
 		}
 		country_as_secondary = {
@@ -670,7 +670,7 @@ christian = {
 		
 		misguided_heretic = yes
 		
-		holy_sites = { 358 1227 2313 1234 419 }
+		holy_sites = { 387 1227 2313 1234 419 }
 		
 		blessings = {
 			legitimize_government

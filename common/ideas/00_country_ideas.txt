@@ -1801,12 +1801,12 @@ NOV_ideas = {
 
 ETH_ideas = {
 	start = {
-		global_autonomy = -0.05
+		global_manpower_modifier = 0.20
 		land_attrition = -0.10
 	}
 	
 	bonus = {
-		global_manpower_modifier = 0.20
+		discipline = 0.05
 	}
 	
 	trigger = {
@@ -1815,7 +1815,7 @@ ETH_ideas = {
 	free = yes		#will be added at load.
 	
 	solomonid_claim = {
-		infantry_power = 0.1
+		core_creation = -0.10
 	}
 	nagusa_negast = {
 		land_morale = 0.10
@@ -1824,13 +1824,13 @@ ETH_ideas = {
 		defensiveness = 0.20
 	}
 	diplomatic_demeanor = {
-		diplomatic_reputation = 1
+		infantry_power = 0.1
 	}
 	the_ark_of_the_covenant = {
 		missionaries = 1
 	}
 	eth_expansionist_policy = {
-		core_creation = -0.10
+		production_efficiency = 0.10
 	}
 	eth_reformed_armies = {
 		prestige = 1
@@ -2571,7 +2571,7 @@ SWI_ideas = {
 SON_ideas = {
 	start = {
 		infantry_power = 0.1
-		army_tradition = 0.5
+		army_tradition = 1
 	}
 	
 	bonus = {
@@ -2584,13 +2584,13 @@ SON_ideas = {
 	free = yes		#will be added at load
 
 	gold_to_salt_trade =  {
-		global_trade_power = 0.1
+		global_trade_goods_size_modifier = 0.1
 	}
 	independence_from_mali = {
-		defensiveness = 0.15
+		land_morale = 0.10
 	}
 	jihad_against_the_pagans = {
-		land_morale = 0.10
+		defensiveness = 0.15
 	}
 	sankore_madrassah = {
 		global_institution_spread = 0.1
@@ -2599,7 +2599,7 @@ SON_ideas = {
 		prestige = 1
 	}
 	sharia = {
-		tolerance_own = 2
+		development_cost = 0.10
 	}
 	trans_sahara_trade = {
 		caravan_power = 0.2
