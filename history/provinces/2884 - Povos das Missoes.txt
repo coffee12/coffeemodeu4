@@ -1,8 +1,8 @@
 # - Povos das Missoes
 
-owner = GUA
-controller = GUA
-add_core = GUA
+owner = 
+controller = 
+add_core = 
 is_city = yes
 culture = guarani
 discovered_by = south_american
