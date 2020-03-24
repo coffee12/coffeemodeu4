@@ -25,10 +25,18 @@ country_decisions = {
 			OR = {
 				ai = no
 				AND = {
-					owns_core_province = 53	# Lüneburg
-					owns_core_province = 54	# Stade
-					owns_core_province = 1758	# Hannover
-					owns_core_province = 2971	# Hoya
+				owns_core_province = 53	 # Lüneburg
+				owns_core_province = 54	 # Stade
+				owns_core_province = 55     # Oldenburg
+				owns_core_province = 56     # Osnabruck
+				owns_core_province = 57     # Braunschweig
+				owns_core_province = 1874   # Bremen
+				owns_core_province = 1931   # Ostfriesland
+				owns_core_province = 1758	 # Hannover
+				owns_core_province = 2971	 # Hoya
+				owns_core_province = 2964   # Altmark
+				owns_core_province = 51     # Ruppin
+				owns_core_province = 2996   # Wismar
 				}
 			}			
 			OR = {
@@ -50,6 +58,9 @@ country_decisions = {
 				province_id = 1931   # Ostfriesland
 				province_id = 1758	 # Hannover
 				province_id = 2971	 # Hoya
+				province_id = 2964   # Altmark
+				province_id = 51     # Ruppin
+				province_id = 2996   # Wismar
 			}
 			OR = {
 				NOT = { owned_by = ROOT }

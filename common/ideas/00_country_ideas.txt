@@ -9988,7 +9988,7 @@ TPR_ideas = {
 
 HAN_ideas = {
 	start = {
-		infantry_power = 0.2
+		infantry_power = 0.10
 		build_cost = -0.1
 	}
 	bonus = {
@@ -10006,10 +10006,10 @@ HAN_ideas = {
 		development_cost = -0.1
 	}
 	han_shutzenfest = {
-		land_maintenance_modifier = -0.05
+		land_maintenance_modifier = -0.10
 	}
 	han_herrenhausen_gardens = {
-		land_morale = 0.125
+		land_morale = 0.10
 	}
 	han_strengthen_the_meiertum = {
 		global_trade_goods_size_modifier = 0.1
