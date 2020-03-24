@@ -256,7 +256,7 @@ CAS_ideas = {
 		missionaries = 1
 	}
 	bonus = {
-		global_colonial_growth = 25
+		global_colonial_growth = 30
 	}
 	trigger = {
 		tag = CAS
@@ -338,7 +338,7 @@ DAN_ideas = {
 	}
 	
 	bonus = {
-		heavy_ship_power = 0.05
+		heavy_ship_power = 0.10
 	}
 	
 	trigger = {
@@ -347,7 +347,7 @@ DAN_ideas = {
 	free = yes		#will be added at load.
 
 	vornedskab = {
-		manpower_recovery_speed = 0.1
+		land_morale = 0.01
 	}
 	old_naval_traditions = {
 		navy_tradition = 1
@@ -363,10 +363,10 @@ DAN_ideas = {
 		naval_forcelimit_modifier = 0.5
 	}
 	den_danske_lov = {
-		global_unrest = -1
+		production_efficiency = 0.1
 	}
 	danish_armies = {
-		land_morale = 0.075	
+		manpower_recovery_speed = 0.1
 	}
 }
 
@@ -554,7 +554,7 @@ POR_ideas = {
 	free = yes		#will be added at load.
 	
 	legacy_of_the_navigator = {
-		range = 0.25
+		range = 0.50
 		global_sailors_modifier = 0.25
 	}
 	afonsine_ordinances = {
@@ -574,7 +574,7 @@ POR_ideas = {
 		global_colonial_growth = 15
 	}
 	open_up_the_guilds = {
-		trade_efficiency = 0.1
+		trade_efficiency = 0.2
 	}
 }
 
