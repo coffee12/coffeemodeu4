@@ -1,8 +1,5 @@
 # No previous file for Towa
 
-add_core = PUE
-owner = PUE
-controller = PUE
 culture = pueblo 
 religion = totemism
 capital = "Cochiti" 

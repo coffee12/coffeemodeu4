@@ -1,8 +1,5 @@
 # No previous file for Wabash
 
-owner = SHA
-controller = SHA
-add_core = SHA
 is_city = yes
 culture = shawnee
 religion = totemism

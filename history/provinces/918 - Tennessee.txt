@@ -1,7 +1,5 @@
 #918 - Tennessee
 
-owner = CHI
-controller = CHI
 culture = chickasaw
 religion = totemism
 capital = "Tennessee"

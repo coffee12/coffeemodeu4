@@ -1,8 +1,5 @@
 #877 - Pima
 
-add_core = PIM
-owner = PIM
-controller = PIM
 culture = piman 
 religion = totemism
 capital = "Pima" 

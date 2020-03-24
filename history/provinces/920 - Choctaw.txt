@@ -1,8 +1,5 @@
 #920 - Choctaw
 
-add_core = CHO
-owner = CHO
-controller = CHO
 culture = choctaw
 religion = totemism
 capital = "Choctaw"

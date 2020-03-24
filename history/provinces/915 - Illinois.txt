@@ -1,8 +1,5 @@
 #915 - Illinois
 
-add_core = ILL
-owner = ILL
-controller = ILL
 culture = illini
 religion = totemism
 capital = "Illinois"

@@ -1,8 +1,5 @@
 #2006 - Apsáalooke
 
-add_core = COM
-owner = COM
-controller = COM
 culture = shoshone
 religion = totemism
 capital = "Apsáalooke"

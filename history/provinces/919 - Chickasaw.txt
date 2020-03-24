@@ -1,7 +1,5 @@
 #919 - Chickasaw
 
-owner = CHI
-controller = CHI
 culture = chickasaw
 religion = totemism
 capital = "Chickasaw"

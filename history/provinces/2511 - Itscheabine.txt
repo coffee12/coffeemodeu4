@@ -1,8 +1,5 @@
 # No previous file for Itscheabine
 
-owner = ARP
-controller = ARP
-add_core = ARP
 is_city = yes
 culture = arapaho
 religion = totemism

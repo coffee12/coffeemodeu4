@@ -1,8 +1,5 @@
 #910 - Chippewa
 
-add_core = CHY
-owner = CHY
-controller = CHY
 culture = cheyenne
 religion = totemism
 capital = "Makoua"

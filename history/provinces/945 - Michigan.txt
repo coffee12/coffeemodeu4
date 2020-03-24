@@ -1,8 +1,5 @@
 #945 - Michigan
 
-add_core = FOX
-owner = FOX
-controller = FOX
 culture = chiwere
 religion = totemism
 capital = "Michigan"

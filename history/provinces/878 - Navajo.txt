@@ -1,8 +1,5 @@
 #878 - Navajo
 
-add_core = NAH
-owner = NAH
-controller = NAH
 culture = navajo
 religion = totemism 
 capital = "Navajo" 

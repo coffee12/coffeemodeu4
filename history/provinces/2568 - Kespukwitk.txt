@@ -1,8 +1,5 @@
 # No previous file for Kespukwitk
 
-add_core = MIK
-owner = MIK
-controller = MIK
 is_city = yes
 culture = mikmaq
 religion = totemism

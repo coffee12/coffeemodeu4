@@ -1,8 +1,5 @@
 # No previous file for Kesagami
 
-add_core = WCR
-owner = WCR
-controller = WCR
 is_city = yes
 culture = cree
 religion = totemism

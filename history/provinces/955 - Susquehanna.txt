@@ -1,8 +1,5 @@
 #955 - Susquehanna
 
-add_core = SUS
-owner = SUS
-controller = SUS
 culture = susquehannock
 religion = totemism
 capital = "Susquehanna"

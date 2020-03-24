@@ -1,8 +1,5 @@
 #971 - Abnaki
 
-add_core = ABE
-owner = ABE
-controller = ABE
 culture = abenaki
 religion = totemism
 capital = "Abnaki"
