@@ -1,8 +1,8 @@
 #748 - Grao Para
 
-owner = TPA
-controller = TPA
-add_core = TPA
+owner = 
+controller = 
+add_core = 
 culture = tupinamba
 discovered_by = south_american
 religion = animism

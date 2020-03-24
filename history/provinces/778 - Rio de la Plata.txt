@@ -1,8 +1,8 @@
 #778 - Rio de la Plata
 
-owner = CUA
-controller = CUA
-add_core = CUA
+owner = 
+controller = 
+add_core = 
 culture = charruan
 discovered_by = south_american
 religion = animism

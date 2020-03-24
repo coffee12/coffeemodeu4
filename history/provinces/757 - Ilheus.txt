@@ -1,8 +1,8 @@
 #757 - Ilheus
 
-owner = TPQ
-controller = TPQ
-add_core = TPQ
+owner = 
+controller = 
+add_core = 
 culture = tupinamba
 discovered_by = south_american
 religion = animism

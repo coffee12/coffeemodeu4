@@ -1,8 +1,8 @@
 #751 - Ceara
 
-owner = PTG
-controller = PTG
-add_core = PTG
+owner = 
+controller = 
+add_core = 
 culture = tupinamba
 discovered_by = south_american
 religion = animism
