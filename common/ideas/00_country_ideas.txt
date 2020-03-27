@@ -334,7 +334,7 @@ NED_ideas = {
 DAN_ideas = {
 	start = {
 		ship_durability = 0.05
-		legitimacy = 1
+		land_morale = 0.10
 	}
 	
 	bonus = {
@@ -347,7 +347,7 @@ DAN_ideas = {
 	free = yes		#will be added at load.
 
 	vornedskab = {
-		land_morale = 0.01
+		prestige = 1
 	}
 	old_naval_traditions = {
 		navy_tradition = 1
@@ -366,7 +366,7 @@ DAN_ideas = {
 		production_efficiency = 0.1
 	}
 	danish_armies = {
-		manpower_recovery_speed = 0.1
+		discipline = 0.05
 	}
 }
 
@@ -567,8 +567,7 @@ POR_ideas = {
 		merchants = 1
 	}
 	royal_absolutism = {
-		build_cost = -0.15
-		yearly_absolutism = 0.1
+		naval_morale = 0.20
 	}
 	land_before_faith = {
 		global_colonial_growth = 15
