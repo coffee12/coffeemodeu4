@@ -1,8 +1,5 @@
 #875 - Canyon
 
-owner = NAH
-controller = NAH
-add_core = NAH
 is_city = yes
 culture = navajo 
 religion = totemism
