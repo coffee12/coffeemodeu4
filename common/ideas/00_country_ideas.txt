@@ -46,12 +46,12 @@ ENG_ideas = {
 
 GBR_ideas = {
 	start = {
-		naval_morale = 0.20
-		heavy_ship_power = 0.15
+		naval_morale = 0.10
+		heavy_ship_power = 0.10
 	}
 
 	bonus = {
-		navy_tradition = 1
+		fire_damage = 0.10
 	}
 	
 	trigger = {
@@ -391,6 +391,7 @@ FRA_ideas = {
 	}
 	elan = {
 		land_morale = 0.15	
+		fire_damage = 0.10
 	}
 	estates_general = {
 		global_tax_modifier = 0.1
@@ -567,7 +568,7 @@ POR_ideas = {
 		merchants = 1
 	}
 	royal_absolutism = {
-		naval_morale = 0.20
+		naval_morale = 0.10	
 	}
 	land_before_faith = {
 		global_colonial_growth = 15
@@ -608,7 +609,7 @@ POL_ideas = {
 		infantry_power = 0.1
 	}
 	winged_hussars = {
-		cavalry_power = 0.33
+		cavalry_power = 0.25
 		cav_to_inf_ratio = 0.10
 	}
 	wojsko_komputoe = {
