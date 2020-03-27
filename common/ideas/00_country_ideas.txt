@@ -1,4 +1,4 @@
-fs# Do not change tags in here without changing every other reference to them.
+# Do not change tags in here without changing every other reference to them.
 # Do not change tags in here without changing every other reference to them.
 # If adding new groups or ideas, make sure they are unique.
 
@@ -46,7 +46,7 @@ ENG_ideas = {
 
 GBR_ideas = {
 	start = {
-		naval_morale = 0.10
+		naval_morale = 0.15
 		heavy_ship_power = 0.10
 	}
 
