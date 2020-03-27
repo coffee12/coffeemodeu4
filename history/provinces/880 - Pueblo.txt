@@ -1,8 +1,5 @@
 #880 - Pueblo
 
-add_core = PUE
-owner = PUE
-controller = PUE
 culture = pueblo 
 religion = totemism
 capital = "Ohkay Owingeh" 
