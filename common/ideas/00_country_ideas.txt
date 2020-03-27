@@ -1,4 +1,4 @@
-# Do not change tags in here without changing every other reference to them.
+fs# Do not change tags in here without changing every other reference to them.
 # Do not change tags in here without changing every other reference to them.
 # If adding new groups or ideas, make sure they are unique.
 
@@ -350,7 +350,7 @@ DAN_ideas = {
 		prestige = 1
 	}
 	old_naval_traditions = {
-		navy_tradition = 1
+		infantry_power = 0.10
 	}
 	rentekammer = {
 		global_tax_modifier = 0.10
@@ -12641,7 +12641,7 @@ MOR_ideas = {
 	}
 	free = yes
 	mor_powerful_viziers = {
-		same_culture_advisor_cost = -0.2
+		land_morale = 0.15
 	}
 	mor_marabouts = {
 		heavy_ship_power = 0.10
@@ -12651,7 +12651,7 @@ MOR_ideas = {
 		caravan_power = 0.2
 	}
 	mor_army = {
-		land_morale = 0.15
+		same_culture_advisor_cost = -0.2
 	}
 	mor_pirate_republics = {
 		global_sailors_modifier = 0.25
