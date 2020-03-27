@@ -1,4 +1,4 @@
-# Do not change tags in here without changing every other reference to them.
+fs# Do not change tags in here without changing every other reference to them.
 # Do not change tags in here without changing every other reference to them.
 # If adding new groups or ideas, make sure they are unique.
 
@@ -46,12 +46,12 @@ ENG_ideas = {
 
 GBR_ideas = {
 	start = {
-		naval_morale = 0.15
-		heavy_ship_power = 0.15
+		naval_morale = 0.10
+		heavy_ship_power = 0.10
 	}
 
 	bonus = {
-		navy_tradition = 1
+		fire_damage = 0.10
 	}
 	
 	trigger = {
@@ -60,7 +60,8 @@ GBR_ideas = {
 	free = yes		#will be added at load.
 
 	gbr_acts_of_union = {
-		fire_damage = 0.1
+		diplomatic_annexation_cost = -0.15
+		max_states = 3
 	}
 	city_upon_a_hill = {
 		global_colonial_growth = 20
@@ -349,7 +350,7 @@ DAN_ideas = {
 		prestige = 1
 	}
 	old_naval_traditions = {
-		navy_tradition = 1
+		infantry_power = 0.10
 	}
 	rentekammer = {
 		global_tax_modifier = 0.10
@@ -390,6 +391,7 @@ FRA_ideas = {
 	}
 	elan = {
 		land_morale = 0.15	
+		fire_damage = 0.10
 	}
 	estates_general = {
 		global_tax_modifier = 0.1
@@ -566,8 +568,7 @@ POR_ideas = {
 		merchants = 1
 	}
 	royal_absolutism = {
-		naval_morale = 0.10
-		heavy_ship_power = 0.05
+		naval_morale = 0.10	
 	}
 	land_before_faith = {
 		global_colonial_growth = 15
@@ -608,7 +609,7 @@ POL_ideas = {
 		infantry_power = 0.1
 	}
 	winged_hussars = {
-		cavalry_power = 0.33
+		cavalry_power = 0.25
 		cav_to_inf_ratio = 0.10
 	}
 	wojsko_komputoe = {
@@ -1566,7 +1567,7 @@ ITA_ideas = {
 		stability_cost_modifier = -0.10
 	}
 	tradition_of_the_legion = {
-		infantry_power = 0.15
+		infantry_power = 0.1
 	}
 	italian_will = {
 		land_morale = 0.1
@@ -12640,7 +12641,7 @@ MOR_ideas = {
 	}
 	free = yes
 	mor_powerful_viziers = {
-		same_culture_advisor_cost = -0.2
+		land_morale = 0.15
 	}
 	mor_marabouts = {
 		heavy_ship_power = 0.10
@@ -12650,7 +12651,7 @@ MOR_ideas = {
 		caravan_power = 0.2
 	}
 	mor_army = {
-		land_morale = 0.15
+		same_culture_advisor_cost = -0.2
 	}
 	mor_pirate_republics = {
 		global_sailors_modifier = 0.25

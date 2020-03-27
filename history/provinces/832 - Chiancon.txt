@@ -1,7 +1,5 @@
 #832 - Tunja
 
-owner = MCA
-controller = MCA
 culture = muisca
 religion = inti
 capital = "Tunja"
