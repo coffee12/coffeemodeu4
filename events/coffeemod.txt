@@ -1,7 +1,9 @@
+namespace = coffeemod
+
 country_event = {
-	id = hashmp.8
-	title = hashmp.8.t
-	desc = hashmp.8.d
+	id = coffeemod.8
+	title = coffeemod.8.t
+	desc = coffeemod.8.d
 	picture = CIVIL_WAR_eventPicture
 
 	fire_only_once = yes
