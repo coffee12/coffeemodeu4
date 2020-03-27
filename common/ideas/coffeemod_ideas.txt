@@ -414,7 +414,7 @@ CSC_ideas = { #Columbia
 
 HAT_ideas = { #Haiti
 	start = {
-		global_manpower = 30
+		global_manpower_modifier = 0.20
 		global_tax_modifier = 0.1
 	}
 	
@@ -453,7 +453,7 @@ HAT_ideas = { #Haiti
 		global_regiment_recruit_speed = -0.25
 	}
 	hat_7 = { #Pave the Way
-		army_tradition = 0.5
+		army_tradition = 1
 	}
 }
 
