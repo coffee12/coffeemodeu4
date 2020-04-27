@@ -541,12 +541,12 @@ PRU_ideas = {
  
 POR_ideas = {
 	start = {
-		trade_range_modifier = 0.30
-		trade_efficiency = 0.05
+		trade_range_modifier = 0.60
+		trade_efficiency = 0.20
 	}
 	
 	bonus = {
-		global_tariffs = 0.20
+		prestige = 1
 	}
 	
 	trigger = {
@@ -574,7 +574,7 @@ POR_ideas = {
 		global_colonial_growth = 15
 	}
 	open_up_the_guilds = {
-		trade_efficiency = 0.2
+		global_tax_modifier = 0.10
 	}
 }
 
